@@ -12,7 +12,7 @@ BMI1 = (mass1 /(height1 *height1 )) ;
 console.log('mark' ,BMI,"john", BMI1);
 if (BMI>BMI1) // checking equalent operator with if else 
 {
-console.log("mark", BMI ); //priting in console with name and bmi value 
+console.log("mark", BMI ); //priting in console with name and bmi value
 }
 else{
     console.log("john",BMI1);
