@@ -57,3 +57,20 @@ else {
 const z =prompt('Equal?'); //prompt input from page 
 console.log('prompt value ',z);
 if(z==18) console.log("equal"); //prompt value is assigned to variable == do coersion from string to value  
+
+
+//logical operators  '&& and || or !not'
+
+const driverlicense= true;
+const drivereyepower= true;
+const drivernottired = true;
+
+if (drivereyepower && driverlicense && drivernottired) // && And || or !not  operator 
+//if (drivereyepower && driverlicense && !drivernottired) true true false
+{
+
+console.log('person can drive now ')
+}
+else{
+    console.log('person cant drive someone else can drive')
+}
