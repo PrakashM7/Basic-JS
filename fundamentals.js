@@ -54,9 +54,9 @@ if (y==18) // == will do coersion first (change string into number) then check e
 else {
     console.log("not equal to");
 }
-const z =prompt('Equal?'); //prompt input from page 
+/*const z =prompt('Equal?'); //prompt input from page 
 console.log('prompt value ',z);
-if(z==18) console.log("equal"); //prompt value is assigned to variable == do coersion from string to value  
+if(z==18) console.log("equal");*/ //prompt value is assigned to variable == do coersion from string to value  
 
 
 //logical operators  '&& and || or !not'
@@ -74,3 +74,21 @@ console.log('person can drive now ')
 else{
     console.log('person cant drive someone else can drive')
 }
+
+//switch case 
+
+const day = 'monday';
+
+switch(day){
+    case 'monday':
+        console.log('start of the week ');
+        break;
+    default :
+     console.log('In valid input ');
+}
+
+//conditional (ternary)
+
+const age1 =22;
+age1>= 18? console.log("person is eligible for voting") :
+console.log("Not eligible for voting");
